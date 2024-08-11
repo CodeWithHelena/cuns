@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clearetian University</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap" rel="stylesheet">
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Font-awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-container d-flex justify-content-between align-items-center">
+            <div class="brand-logo">
+                <a href="#" onclick="clickCourseBtn()"><img src="assets/img/cun-logo.png" alt="" width="100%"></a>
+            </div>
+            <div class="menu">
+              <ul class="clearfix">
+                <li class="close-hamburger"><i class="fa-solid fa-times"></i></li>
+                <li class="nav-link1"><a href="#" onclick="closemenu()">HOME</a></li>
+                <li class="nav-link2"><a href="#">ONLINE COURSES <i class="fa-solid fa-chevron-down ps-2"></i></a>
+                  <ul>
+                    <li class="menu-item1"><a href="#">SCIENCE AND TECHNOLOGY</a>
+                      <ul>
+                        <li><a href="#">B.Sc Mathematics</a></li>
+                        <li><a href="#">Software Engineering</a></li>
+                        <li><a href="#">B.Sc Cyber Security</a></li>
+                        <li><a href="#">B.Sc Computer Science</a></li>
+                        <li><a href="#">B.Sc Physics with Electronics</a></li>
+                        <li><a href="#">B.Sc Chemistry</a></li>
+                        <li><a href="#">B.Sc Biology</a></li>
+                      </ul>
+                    </li>
+                    <li class="menu-item2"><a href="#">HEALTH AND MEDICINE</a>
+                      <ul>
+                        <li><a href="#">B.Sc Public Health</a></li>
+                        <li><a href="#">B.Sc Physiotherapy</a></li>
+                        <li><a href="#">B. Nursing Science</a></li>
+                      </ul>
+                    </li>
+                    <li class="menu-item3"><a href="#">BUSINESS AND ECONOMICS</a>
+                      <ul>
+                        <li><a href="#">B.Sc Accounting</a></li>
+                        <li><a href="#">B.Sc Taxation</a></li>
+                        <li><a href="#">B.Sc Economics</a></li>
+                        <li><a href="#">B.Sc Agricultural Economics</a></li>
+                      </ul>
+                    </li>
+                    <li class="menu-item4"><a href="#">HUMANITIES AND SOCIAL SCIENCE</a>
+                        <ul>
+                          <li><a href="#">B.A Philosophy</a></li>
+                          <li><a href="#">B.Sc Criminology & Peace Studies</a></li>
+                          
+                        </ul>
+                      </li>
+                  </ul>
+                </li>
+                <li  class="nav-link3"><a href="#footer" onclick="closemenu()">CONTACT</a></li>
+                <li><a href="" class="btn-brand login-btn"><i class="fa-solid fa-key me-2"></i>LOGIN</a></li>
+                <li><a href="tel: +234 (0) 901 6189 060" class="btn-brand contact-phone"><i class="fa-solid fa-phone-flip me-1"></i>+234 (0) 901 6189 060</a></li>
+               
+              </ul>
+            </div>
+          </div> 
+    </header>   
+    <div class="hero img bg-cover" style="background-image: url(assets/img/main-hero6.jpg);">
+        <div class="container row" >
+                <div class="col-lg-7 col-md-6 col-sm-12">
+                    <div class="hero-content">
+                        <h1>WELCOME</h1>
+                        <p>to Claretian University</p>
+                        <a class="btn-brand">FIND A COURSE</a>
+                    </div>
+                 </div>
+                 <div class="col-5 col-md-6 col-sm-12">
+    
+                 </div>
+             
+        </div>
+    </div>
+
+    <main>
+        <section class="course-section">
+            <div class="container">
+                <div class="row g-1">
+                    <div class="col-md-6 col-lg-4 img-container"><div class="img-box box3 bg-cover" style="background-image: url(assets/img/nursing.jpg);"> Medical Science</div></div>
+                    <div class="col-md-6 col-lg-4 img-container"><div class="img-box box3 bg-cover" style="background-image: url(assets/img/Biology.jpg );">Biological Science</div></div>
+                    
+                    <div class="col-md-6 col-lg-4 img-container"><div class="img-box box3 bg-cover" style="background-image: url(assets/img/software.jpg );">Engineering</div></div>
+                    <div class="col-md-6 col-lg-4 img-container"><div class="img-box box3 bg-cover" style="background-image: url(assets/img/creminology.jpg);">Humanities</div></div>
+                    <div class="col-md-6 col-lg-4 img-container"><div class="img-box box3 bg-cover" style="background-image: url(assets/img/Philosophy\ course.jpg );">Philosophy</div></div>
+                    <div class="col-md-6 col-lg-4 img-container"><div class="img-box box3 bg-cover" style="background-image: url(assets/img/economics.jpg );">Economics</div></div>
+                </div>
+            </div>            
+        </section>
+
+        <section class="icon-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 text-center icon1">
+                        <i class="fa-solid fa-info"></i>
+                        <p>Nigeria's most competitively priced online courses</p>
+                    </div>
+                    <div class="col-md-3 text-center icon2">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Fast results and certification</p>
+                    </div>
+                    <div class="col-md-3 text-center icon3">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <p>Flexible easy pay instalment plans available to all learners</p>
+                    </div>
+                    <div class="col-md-3 text-center icon4">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <p>Highly Qualified & accessible full time in-house tutors</p>
+                    </div>
+                </div>            
+            </div>
+        </section>
+
+        <section class="about-text px-3">
+            <div class="container">
+                <div class="row">
+                    <h2>Clearetian University: E-Learning Platform for Online Courses </h2>
+                    <p>Clearetian University is a premier provider of accredited online courses in various fields, including Health and Medicine, Business and Economics, Science and Technology etc. We specialize in offering flexible online programs designed to cater to the needs of both learners and employers. Our team of instructors brings a wealth of experience and expertise, with qualifications ranging from undergraduate degrees to PhDs. Additionally, learners receive comprehensive support from our seasoned administration team throughout their studies and from subject matter experts during the registration process.</p>
+                </div>
+            </div>          
+        </section>     
+        
+        <footer id="footer">
+            <section>
+                <div class="container">
+                    <div class="row gx-5">
+                        <div class="col-md-3 contact-row">
+                            <h5>Contact Us:</h5>
+                            <p><i class="fa-solid fa-user me-3"></i>Clearetian University</p>
+                            <p><i class="fa-solid fa-house me-3"></i>Maryland Nekede, Old Nekede Rd Umualum, Imo State</p>
+                            <p><i class="fa-solid fa-phone-flip me-3"></i><a href="tel:+234 (0) 901 6189 060"></a>+234 (0) 901 6189 060</a></p>
+                            <p><i class="fa-solid fa-envelope me-3"></i><a href="mailto:info@claretianuniversity.edu.ng">info@claretianuniversity.edu.ng</a></p>
+                            <p class="socail-links last-p">
+                                <a href="https://web.facebook.com/claretianuniversity?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook-f" style="padding: .7rem .9rem .3rem;"></i></a>
+                                <a href="https://www.instagram.com/claretianuniversity/" target="_blank"><i class="fa-brands fa-instagram" ></i></a>
+                                <a href="https://www.youtube.com/channel/UCKTKrkvsbssN91B8OEYsI4A" target="_blank"><i class="fa-brands fa-youtube" style="padding: .7rem .68rem .3rem;"></i></a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 quick-links">
+                            <h5>Quick Links</h5>
+                            <p><a href="https://portal.claretianuniversity.edu.ng/students/transcript">Transcript</a></p>
+                                
+                            <p><a href="https://mail.google.com/mail/u/0/" target="_blank">Check Mail</a></p>
+                            <p class="last-p"><a href="https://claretiano.edu.br/" target="_blank">Claretiano</a></p>
+                            <!-- <p><a href="#">Downloads</a></p> -->
+                        </div>
+                        <div class="col-md-3 featured-courses">
+                            <h5>Featured Courses</h5>
+                            <p><a>B.Sc Accounting</a></p>
+                            <p><a>B.Sc Computer Science</a></p>
+                            <p><a>B.Sc Mathematics</a></p>
+                            <p><a>B.Sc Economics</a></p>
+                            <p class="last-p"><a>B. Nursing Science</a></p>
+
+                        </div>
+                        <div class="col-md-3 newsletter">
+                            <h5>Subscribe to our Newsletter</h5>
+                            <div>
+                                <input type="email" placeholder="Enter your email">
+                                <button>Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="powered text-center">
+                    <p>Claretian University - All Rights Reserved.</p>
+                    <p>Powered By: <a href="https://netpro.africa">Netpro International Limited</a></p>
+                </div>
+            </section>
+        </footer>
+    </main>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
